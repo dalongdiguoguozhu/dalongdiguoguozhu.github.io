@@ -1,0 +1,183 @@
+{	
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/home",
+			"style": {
+				"navigationBarTitleText": "Bubble"
+			}
+		}
+	    ,{
+            "path" : "pages/me/myorder/myorder",
+            "style" : {
+				"h5":{
+					"transparentTitle":"auto"
+				},
+				"backgroundColor":"#fff"
+			}
+        },
+		{
+			"path":"pages/me/me",
+			"style":{
+				"h5":{
+					"transparentTitle":"auto"
+				},
+				"backgroundColor":"#FFFFFF"
+			}
+		},
+		{
+			"path":"pages/release/release",
+			"style":{
+				"h5":{
+					"transparentTitle":"auto"
+				}
+			}
+		},
+		{
+			"path":"pages/market/market",
+			"style":{
+				"h5":{
+					"transparentTitle":"auto"
+				}
+			}
+		},
+		{
+			"path":"pages/shoppingcart/shoppingcart",
+			"style":{
+				"h5":{
+					"transparentTitle":"auto"
+				}
+			}
+		}
+		
+        ,{
+            "path" : "pages/index/search/search",
+            "style" : {}
+        }
+        
+        ,{
+            "path" : "pages/index/productDisplay/productDisplay",
+            "style" : {
+				"h5":{
+					"transparentTitle":"auto"
+				}
+				
+			}
+        },
+		{
+		    "path" : "pages/me/settings",
+		    "style" : {
+				
+				"h5":{
+					"transparentTitle":"auto"
+				},
+				"backgroundColor":"#FFFFFF"
+				
+			}
+		},
+		{
+		    "path" : "pages/me/address",
+		    "style" : {
+				
+				"h5":{
+					"transparentTitle":"auto"
+				},
+				"backgroundColor":"#FFFFFF"
+				
+			}
+		},
+		{
+		    "path" : "pages/me/addSite",
+		    "style" : {
+				
+				"h5":{
+					"transparentTitle":"auto"
+				},
+				"backgroundColor":"#FFFFFF"
+				
+			}
+		},
+		{
+		    "path" : "pages/me/login/login",
+		    "style" : {
+				
+				"navigationBarTextStyle":"black",
+				"navigationBarTitleText":"登录",
+				"h5":{
+					"transparentTitle":"auto"
+				},
+				"backgroundColor":"#FFFFFF",
+				"navigationBarBackgroundColor":"#FFFFFF"
+				
+				
+			}
+		},
+		{
+		    "path" : "pages/me/myorder/allorder",
+		    "style" : {
+				
+				"navigationBarTextStyle":"black",
+				"navigationBarTitleText":"订单详情",
+				"h5":{
+					"transparentTitle":"auto"
+				},
+				"backgroundColor":"#FFFFFF",
+				"navigationBarBackgroundColor":"#FFFFFF"
+				
+				
+			}
+		},
+		{
+		    "path" : "pages/me/collect",
+		    "style" : {
+				
+				"navigationBarTextStyle":"black",
+				"navigationBarTitleText":"默认收藏夹",
+				"h5":{
+					"transparentTitle":"auto"
+				},
+				"backgroundColor":"#FFFFFF",
+				"navigationBarBackgroundColor":"#FFFFFF"
+				
+				
+			}
+		},
+		{
+		    "path" : "pages/me/myorder/aftersell",
+		    "style" : {
+				
+				"navigationBarTextStyle":"black",
+				"navigationBarTitleText":"退款/售后",
+				"h5":{
+					"transparentTitle":"auto"
+				},
+				"backgroundColor":"#FFFFFF",
+				"navigationBarBackgroundColor":"#FFFFFF"
+				
+				
+			}
+		},
+		{
+		    "path" : "pages/index/relativeProduct",
+		    "style" : {
+				"h5":{
+					"transparentTitle":"auto"
+				}
+			}
+		}
+		
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "Bubble",
+		"navigationBarBackgroundColor": "#a498ca",
+		"backgroundColor": "#FFFFFF"
+		
+	}
+			
+		
+		
+	
+}

@@ -1,0 +1,154 @@
+/* 个人中心 */
+.bg-white{
+	background-color: #FFFFFF;
+}
+/* 名片部分 */
+.personal_card{
+	display: flex;
+	flex-direction: row;	
+}
+.head_img{
+	margin: 50upx 30upx;
+}
+.username{
+	font-size: larger;
+	display: flex;
+	
+	font-weight: 500;
+}
+.ico-vip{
+	width: 30upx;
+	height: 30upx;
+	display: inline-block;
+	align-self: center;
+	left: 20upx;
+}
+.username_position{
+	display: flex;
+	flex-direction: row;
+	align-self: flex-start;
+	margin-bottom: 20upx;
+	/* justify-content: stretc; */
+}
+.infor{
+	display: flex;
+	flex-direction: column;
+	align-self: center;
+}
+.intro_style{
+	font-size: small;
+	color: #808080;
+}
+.ico-positon{
+	display: flex;
+	flex-direction: row;
+	padding: 15upx;
+	margin-left: 40upx;
+}
+.ico-size{
+	font-size: x-large;
+	color: #808080;
+}
+/* 我的订单部分 */
+.text_position{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	/* justify-content: space-between; */
+	justify-content: center;
+	
+	border-bottom: 1px double;
+	border-bottom: #808080;
+	padding: 10upx;
+}
+.attention_num{
+	font-weight: bold;
+	margin-right: 10upx;
+}
+.attention{
+	margin-right: 30upx;
+}
+.my-order-style{
+	border-top:solid 1rpx  ;
+	border-top-color:rgba(128,128,128,0.1) ;	
+	padding-bottom: 40upx;
+}
+
+.text-box{
+	margin: 30upx 10upx;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.text-myorder{
+	font-weight: bold;
+	margin-left: 30upx;
+}
+.text-all{
+	color: #808080;
+	display: flex;
+	margin-right: 30upx;
+}
+.wrap{
+	display: flex;
+	flex-direction: column;
+	height: calc(115vh - var(--window-top));
+	width: 100%;
+	
+}
+.u-tabs-box{
+	
+}
+
+.border-top-style{
+	border-top:solid 30upx rgb(246,246,246) ;
+}
+.swiper-box{
+	flex: 1;
+}
+/* 局部瀑布流 */
+.waterfallIndex{
+	
+}
+.swiper-item{
+	height: 100%;
+	position: relative;
+	
+}
+.colletc-flex{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.collect_item{
+	
+	border-top: solid 2px rgb(254,215,26);
+	box-shadow: rgb(254,215,26);
+	width: 80%;
+	height: 340upx;
+	margin: 40upx;
+}
+.collect_btn{
+	margin-top: 20upx;
+	outline: none;
+	border:none;
+	width: 60%;
+	font-size: medium;
+	font-weight: 600;
+}
+.img-flex{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.collect-img{
+	margin-top: 10upx;
+	
+	width: 30%;
+	height:160upx;
+}
+.bottombar{
+	
+	
+}
