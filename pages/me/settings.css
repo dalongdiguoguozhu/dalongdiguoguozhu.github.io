@@ -1,0 +1,42 @@
+.ico-positon{
+	position: fixed;z-index:999;
+	font-size: large;
+	margin: 0rpx 0 10rpx 30rpx ;
+}
+.page-box{
+	background-color: #FFFFFF;
+	height: calc(100vh - var(--window-top));
+}
+.top{
+	padding-top: 40rpx;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.settingTitle{
+	margin: 0 300rpx 0 360rpx ;
+}
+.avatar{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin: 40rpx 0 0 30rpx;
+}
+.u_form{
+	font-weight: 700;
+	margin: 10rpx 40rpx ;
+}
+.ico_right{
+	display: flex;
+	flex-direction: row-reverse;
+	margin-left: 400rpx;
+}
+.change_btn{
+	color: #000000;
+	background-color: #FFFFFF;
+	font-weight: 700;
+	width: 60%;
+	border-radius: 50rpx;
+	border: 1rpx solid rgb(254,215,26);
+	margin-top: 40rpx;
+}

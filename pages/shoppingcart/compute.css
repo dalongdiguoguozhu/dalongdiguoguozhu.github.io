@@ -1,0 +1,151 @@
+.page-box{
+	background-color: #F1F1F1;
+	height: calc(130vh - var(--window-top));
+	display: flex;
+	flex-direction: column;	
+}
+.location_ico{
+	width: 80rpx;
+	height: 60rpx;
+	margin-right: 20rpx;
+}
+.address_info{
+	background-color: #FFFFFF;
+	border-radius: 20rpx;
+	display: flex;
+	flex-direction: row;
+	height: 200rpx;
+	width: 95%;
+	margin: 0 2.5%;
+	padding: 20rpx;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1rpx solid rgba(128,128,128,0.2);
+	margin-top: 20rpx;
+}
+.address_desc{
+	display: flex;
+	flex-direction: column;
+}
+.buyer_name{
+	font-weight: 700;
+}
+.phone_number{
+	color: rgba(128,128,128,0.5);
+	font-weight: 500;
+	margin-left: 20rpx;
+}
+.address_detail{
+	font-weight: 700;
+	margin-top: 10rpx;
+}
+.ordercard{
+	background-color: #FFFFFF;
+	border-radius: 20rpx;
+	display: flex;
+	flex-direction: column;
+	height: 700rpx;
+	width: 95%;
+	margin: 2.5% 2.5%;
+	padding: 20rpx;
+	border-bottom: 1rpx solid rgba(128,128,128,0.2);
+}
+.ordercard .title{
+	font-size: 30rpx;
+	font-weight: 700;
+}
+.ordercard .product_img{
+	width: 150rpx;
+	height: 150rpx;
+	border-radius: 20rpx;
+	margin: 10rpx 10rpx;
+}
+.ordercard .order_top{
+	display: flex;
+	flex-direction: row;
+	
+}
+.ordercard .order_desc{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.ordercard .order_desc .descintro{
+	font-size: 28rpx;
+	font-weight: 600;
+	text-overflow: ellipsis;
+	width: 80%;
+}
+.ordercard .order_desc .desctype{
+	color: rgb(128,128,128,0.4);
+	font-size: 15rpx;
+	margin-top: 10rpx;
+}
+.ordercard .orderprize .prize{
+	font-weight: 700;
+	font-size: 15rpx;
+}
+.ordercard .orderprize{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	
+}
+.ordercard .orderprize .num{
+    color: rgb(128,128,128,0.4);
+	font-size: 15rpx;
+	margin-left: 50rpx;
+}
+.ordercard .price-calculate{
+	margin-top: 50rpx;
+	display: flex;
+	flex-direction: row;	
+}
+.ordercard .price-calculate .num{
+	color: rgb(128,128,128,0.4);
+	margin-right: 10rpx;
+}
+.ordercard .price-calculate .red{
+	color: red;
+}
+.buttom{
+		position: fixed;
+		left: 0;
+		bottom:0px;
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		background-color: #FFFFFF;
+		align-items: center;
+		justify-content: space-between;
+		padding: 0 20rpx;
+		height: 120rpx;
+		margin-bottom: 10rpx;
+	}
+	.buttom .desc text:first-child{
+		color: #CCCCCC;
+		font-size: 12rpx;
+	}
+	.buttom .desc text:nth-child(2){
+		font-weight: 500;
+		font-size: 25rpx;
+		padding: 0 10rpx;
+	}
+	.buttom .desc text:nth-child(3){
+		color: rgb(254,215,26);
+		font-weight: 600;
+	}
+	.buttom .btn{
+		height: 80rpx;
+		background-color: rgb(254,215,26);
+		width: 180rpx;
+		border-radius: 50rpx;
+		text-align: center;
+		line-height: 85rpx;
+		font-size: 35rpx;
+		color: #FFFFFF;
+		font-weight: 500;
+	}
+	

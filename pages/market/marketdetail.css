@@ -1,0 +1,34 @@
+.page-box{
+	background-color: #F1F1F1;
+	height: calc(130vh - var(--window-top));
+	display: flex;
+	flex-direction: column;	
+}
+.bg-mycolor{
+	background-color: rgb(164,152,202);
+}
+.position{
+	flex-shrink: 0;
+	width: 100%;
+	position: fixed;
+	// position: sticky;
+	z-index: 997;
+}
+.cu-btn{
+	padding: 0 10rpx;
+}
+.btn_txt{
+	font-size: medium;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.wrap{
+	margin-top: 10rpx;
+	
+	
+}
+.goods-list{
+	display: flex;
+	flex-direction: column;	
+	justify-content:center;
+	margin-left: 5rpx;
+}
